@@ -1,0 +1,23 @@
+body{
+    border: 10xp solid var(--clr-dark);
+}
+.item{
+    width: 150px;
+    height: 15px;
+    background-color: pink;
+    padding: 1em;
+    font-weight: 800;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-dark);
+    border-radius: 60px;
+}
+/* ..............flex CSS ...............*/
+.container{
+    /* flex properties */
+   display: flex;
+   /* flex-direction:row-reverse */
+   /* align-items: center;
+   justify-content: space-evenly; */
+   /* flex-warp: warp; */
+}

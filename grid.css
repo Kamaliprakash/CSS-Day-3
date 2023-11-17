@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+.container{
+    /* background-color: lightseagreen; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    margin: 20%;
+    margin-top: 100px;
+
+    /* column-gap: 90px;
+    row-gap: 90px; */
+    /* grid-template-rows: 100px; */   
+}
+div{
+    color: white;
+text-align: center;
+font-size: x-large;
+background-color: pink;
+border: 1px solid black;
+padding: 30px;
+}
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.grid5{
+    grid-column-start: 5;
+grid-row-start: 3;
+grid-row-end: 6;
+    }
+
+
